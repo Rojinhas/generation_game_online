@@ -50,4 +50,4 @@ ON tb_classes.classeid = tb_personagens.classe;
 SELECT nome, classeid, classe, poder, tamanho, poder_ataque, tb_classes.personagens
 FROM tb_classes JOIN tb_personagens 
 ON tb_classes.classeid = tb_personagens.classe
-WHERE tb_personagens.classe = 'Arqueiro';
+WHERE tb_personagens.classe = 'Arqueiro'; 
